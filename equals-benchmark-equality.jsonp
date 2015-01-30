@@ -1,0 +1,24 @@
+receiveJsonpData({
+"cols": [
+{"label": "method", "type": "string"},
+{"label": "Average time [s]", "type": "number"},
+{"label": "StdDev", "type": "number"},
+{"label": "GC time [s]", "type": "number"},
+{"label": "GC average [s]", "type": "number"},
+{"label": "StdDev", "type": "number"},
+{"label": "GC calls", "type": "number"},
+{"label": "benchmark rounds", "type": "number"},
+{"label": "warmup rounds", "type": "number"},
+{"label": "Total benchmark time", "type": "number"},
+{"label": "Total warmup time", "type": "number"}
+],
+"rows": [
+{"c": [{"v": "testEqualObjectsWithFewFields"}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0}, {"v": 10}, {"v": 5}, {"v": 0.0}, {"v": 0.01}]},
+{"c": [{"v": "testSameObjectWithFewFields"}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0}, {"v": 10}, {"v": 5}, {"v": 0.0}, {"v": 0.0}]},
+{"c": [{"v": "testEqualObjectsWithManyFields"}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0}, {"v": 10}, {"v": 5}, {"v": 0.0}, {"v": 0.01}]},
+{"c": [{"v": "testDifferentObjectsWithManyFields"}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0}, {"v": 10}, {"v": 5}, {"v": 0.01}, {"v": 0.0}]},
+{"c": [{"v": "testManyInList"}, {"v": 0.01}, {"v": 0.0}, {"v": 0.01}, {"v": 0.0}, {"v": 0.0}, {"v": 2}, {"v": 10}, {"v": 5}, {"v": 0.09}, {"v": 0.14}]},
+{"c": [{"v": "testSameObjectWithManyFields"}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0}, {"v": 10}, {"v": 5}, {"v": 0.0}, {"v": 0.0}]},
+{"c": [{"v": "testDifferentObjectsWithFewFields"}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0}, {"v": 10}, {"v": 5}, {"v": 0.0}, {"v": 0.0}]},
+{"c": [{"v": "testFewInList"}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 0.0}, {"v": 1}, {"v": 10}, {"v": 5}, {"v": 0.03}, {"v": 0.04}]}
+]});
